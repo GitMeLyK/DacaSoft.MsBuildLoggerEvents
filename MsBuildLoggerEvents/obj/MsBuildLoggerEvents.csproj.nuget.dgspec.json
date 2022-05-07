@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\carmelo.daniele\\source\\repos\\Dev.MsbuilWithContentFiles\\MsBuildLoggerEvents\\MsBuildLoggerEvents.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carmelo.daniele\\source\\repos\\Dev.MsbuilWithContentFiles\\MsBuildLoggerEvents\\MsBuildLoggerEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carmelo.daniele\\source\\repos\\Dev.MsbuilWithContentFiles\\MsBuildLoggerEvents\\MsBuildLoggerEvents.csproj",
+        "projectName": "MsBuildLoggerEvents",
+        "projectPath": "C:\\Users\\carmelo.daniele\\source\\repos\\Dev.MsbuilWithContentFiles\\MsBuildLoggerEvents\\MsBuildLoggerEvents.csproj",
+        "packagesPath": "C:\\Users\\carmelo.daniele\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carmelo.daniele\\source\\repos\\Dev.MsbuilWithContentFiles\\MsBuildLoggerEvents\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carmelo.daniele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.springlab.enel.com/artifactory/api/nuget/enel_platform_dotnet": {},
+          "https://enel-sit.pkgs.visualstudio.com/ENEL-STG/_packaging/SMMePlus-Shared/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DumpExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSBuild.StructuredLogger": {
+              "target": "Package",
+              "version": "[2.1.545, )"
+            },
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Microsoft.Build.Utilities.Core": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
